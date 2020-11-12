@@ -1,4 +1,4 @@
-console.log("Welcome Master!!!!")
+console.log(" %c Welcome Master!!!!","color: green; font-family:monospace; font-size: 20px")
 window.addEventListener("keydown", function (e){
     const sound = document.querySelector(`audio[data-key="${e.code}"]`)
     // select the element pressed to add playing class

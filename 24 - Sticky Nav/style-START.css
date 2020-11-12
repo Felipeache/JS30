@@ -86,3 +86,13 @@ nav a {
   transition: all 0.2s;
   text-transform: uppercase;
 }
+
+.sticky{
+  position: -webkit-sticky;
+  position: sticky;
+  margin-top: -1px;
+}
+
+.sticky li.logo{
+  max-width: 10vw;
+}
